@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+header{
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header__tittle{
+    text-align: center;
+    padding: 128px 0;
+    height: 776px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #212529;
+}
+
+.header__tittle h1{
+    font-size: 440%;
+}
+
+.header__tittle p{
+    font-size: 140%;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.header__tittle a{
+    text-decoration: none;
+    width: 176px;
+    height: 66px;
+    padding: 20px 40px ;
+    font-size: 80%;
+    background-color: #1D809F;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.header__tittle a:hover{
+    background-color: #196d87;
+}
+
+.stylish{
+    background-color: #F8F9FA;
+    padding: 120px 0;
+}
+
+.stylish__box{
+    text-align: center;
+    color: #212529;
+}
+
+.stylish__box h2{
+    font-size: 160%;
+    font-weight: 700;
+}
+
+.stylish__box p{
+    font-weight: 300;
+    font-size: 100%;
+}
+
+.stylish__box a{
+    color:#1D809F;
+}
+
+.stylish__btn{
+    text-decoration: none;
+    /* padding: 20px 40px; */
+    color: white !important;
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80%;
+    margin-top: 48px;
+    width: 176px;
+    height: 66px;
+    border-radius: 6px;
+    cursor:pointer;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.stylish__btn:hover{
+    background-color:#424649;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.services{
+    padding: 110px 0;
+    background-color: #1D809F;
+}
+
+.services__box__top{
+    text-align: center;
+}
+
+.services__box__top h3{
+    font-size: 80%;
+    font-weight: 700;
+    color: #ECB807;
+}
+
+.services__box__top h4{
+    font-size: 240%;
+    font-weight: 700;
+    color:white;
+}
+
+.services__box__cards{
+    margin-top: 48px;
+    max-width: 912px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__box__card{
+    width: 228px;
+    padding: 0 24px;
+    /* height: 189px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.services__box__card__icon{
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #1D809F;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.services__box__card h5{
+    font-size: 120%;
+    color: white;
+    font-weight: bolder;
+}
+
+.services__box__card p{
+    font-size: 80%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.services__box__card svg{
+    width: 16px;
+    height: 14px;
+    margin: 0 3px;
+}
+
+.welcome{
+    padding: 240px 0;    
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome__box h2{
+    width: 480px;
+    font-size: 280%;
+    line-height: 1.2;
+    color: #212529;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome__btn{
+    width: 188px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80%;
+    background-color: #1D809F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.welcome__btn:hover{
+    background-color: #196d87;
+}
+
+.portfolio{
+    padding: 120px 0;
+}
+
+.portfolio__top h2{
+    font-size: 80%;
+    font-weight: 700;
+    color: #ECB807;
+    text-align: center;
+}
+
+.portfolio__top p{
+    font-size: 240%;
+    font-weight: 700;
+    text-align: center;
+    color: #212529;
+}
+
+.portfolio__box{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1224px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+
+.portfolio__box__card{
+    width: 612px;
+    transition: 0.3s;
+    height: 408px;
+    position: relative;
+}
+
+.portfolio__box__card__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio__box__card__tittle{
+    position: absolute;
+    bottom: 80px;
+    z-index: 3;
+    left: 80px;
+    color: white;
+}
+
+.portfolio__box__card__tittle h2{
+    font-size: 64%;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.portfolio__box__card__tittle p{
+    width: 85%;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.portfolio__box__card__bacground{
+    width: 100%;
+    z-index: 2;
+    clip-path: inset(0px);
+    position: absolute;
+    height: 100%;
+    color: white;
+    background-color: rgba(33, 37, 41, 0.2) ;
+    transition: 0.5s  ;
+}
+
+.portfolio__box__card__img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    transition: 0.6s ;
+}
+
+.portfolio__box__card:hover .portfolio__box__card__bacground{
+    width: 552px;
+    height: 348px;
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(29, 128, 159, 0.9);
+}
+
+.portfolio__box__card:hover .portfolio__box__card__img{
+    padding: 30px;
+}
+
+.resist{
+    padding: 120px 0;
+    background-color: #1D809F;
+}
+
+.resist__box h2{
+    text-align: center;
+    font-size: 160%;
+    color: white;
+    font-weight: 700px;
+}
+
+.resist__box__btn{
+    display: flex;
+    margin-top: 24px;   
+}
+
+.resist__box__btn{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn__click_me__resist{
+    width: 141px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.btn__click_me__resist:hover{
+    background-color: #d3d4d5;
+}
+
+.btn__look_at__resist:hover{
+    background-color: #424649;
+}
+
+.btn__look_at__resist{
+    width: 158px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212529;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 80%;
+}
+
+.footer__icons{
+    padding: 80px 0 48px 0;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icon{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #1D809F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+
+.footer__icon:hover{
+    background-color: #155d74;
+}
+
+.footer__finish{
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 70%;
+    color: #6c757d ;
+}
+
+.fixed_icon{
+    width:50px;
+    height:50px;
+    background-color:rgba(52, 58, 64, 0.5);;
+    color:white;
+    position: fixed;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    right: 15px;
+    border-radius:6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fixed_icon:hover{
+    background:#343a40;
+}
+
+.bar{
+    top: 15px;
+}
+
+.arrow{
+    bottom: 15px;    
+}
+
+.fixed_icon a{
+    text-decoration: none;
+    color:white;
+}
+
+.map{
+    max-width: 100%;
+}
+
+.map iframe{
+    width: 100%;
+}
